@@ -1,0 +1,11 @@
+# Notebook dependencies; versions from the current project environment.
+sentence-transformers==6.3.0
+numpy==2.5.5
+pandas==3.1.1
+matplotlib==3.11.2
+
+# Keep the PyTorch build platform-specific (CPU or CUDA).
+torch>=2.15,<3
+
+# Jupyter/VS Code notebook kernel.
+ipykernel==7.4.0
